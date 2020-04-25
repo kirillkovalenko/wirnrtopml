@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(GeneratedFilesDir)module.g.cpp">
+      <Filter>Build</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Build</Filter>
+    </ClCompile>
+    <ClCompile Include="Outline.cpp" />
+    <ClCompile Include="Document.cpp" />
+    <ClCompile Include="ExpansionState.cpp" />
+    <ClCompile Include="Header.cpp" />
+    <ClCompile Include="Attributes.cpp" />
+    <ClCompile Include="Outlines.cpp" />
+    <ClCompile Include="DateTime.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Outline.hpp" />
+    <ClInclude Include="Document.hpp" />
+    <ClInclude Include="ExpansionState.hpp" />
+    <ClInclude Include="Header.hpp" />
+    <ClInclude Include="Attributes.hpp" />
+    <ClInclude Include="Outlines.hpp" />
+    <ClInclude Include="DateTime.hpp" />
+    <ClInclude Include="Pch.hpp">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlLite.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="PropertySheet.props">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Opml.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Build">
+      <UniqueIdentifier>{6741dd72-d56b-44b9-aa53-d191993117b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

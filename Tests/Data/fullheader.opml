@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="2.0">
+	<head>
+		<title>FullHeader.opml</title>
+		<dateCreated>Sun, 14 Apr 2020 16:14:00 GMT</dateCreated>
+		<dateModified>Sun, 14 Apr 2020 16:14:15 GMT</dateModified>
+		<ownerName>Kirill Kovalenko</ownerName>
+		<ownerEmail>kirill.kovalenko@gmail.com</ownerEmail>
+		<ownerId>https://github.com/kirillkovalenko</ownerId>
+		<docs>http://dev.opml.org/spec2.html</docs>
+		<expansionState>1</expansionState>
+		<vertScrollState>1</vertScrollState>
+		<windowTop>4</windowTop>
+		<windowLeft>8</windowLeft>
+		<windowBottom>15</windowBottom>
+		<windowRight>16</windowRight>
+	</head>
+	<body>
+		<outline text="cppwinrt" created="Sun, 14 Apr 2020 16:14:00 GMT" type="link" url="https://github.com/microsoft/cppwinrt"/>
+	</body>
+</opml>

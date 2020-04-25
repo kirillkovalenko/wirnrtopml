@@ -1,0 +1,95 @@
+namespace Kirkov.Data.Opml
+{
+    [version(1.0)]
+    runtimeclass OpmlDateTime
+    {
+        static Windows.Foundation.DateTime Parse(String value);
+        static String ToString(Windows.Foundation.DateTime value);
+    }
+
+    [version(1.0)]
+    [uuid(09496587-0a71-4d90-bd3c-1a439ee39828)]
+    interface IOpmlExpansionState requires 
+        Windows.Foundation.Collections.IVector<UInt32>, 
+        Windows.Foundation.Collections.IIterable<UInt32>, 
+        Windows.Foundation.IStringable
+    {
+    };
+
+    [version(1.0)]
+    [uuid(18218005-f126-401e-b3e8-959f546a2547)]
+    interface IOpmlHeader requires 
+        Windows.Foundation.IStringable
+    {
+        String Title;
+        Windows.Foundation.DateTime Created;
+        Windows.Foundation.DateTime Modified;
+        String OwnerName;
+        String OwnerEmail;
+        String OwnerId;
+        Windows.Foundation.Uri Documentation;
+        UInt32 ScrollState;
+        Windows.Foundation.Rect Window;
+        IOpmlExpansionState ExpansionState { get; };
+    };
+
+    [version(1.0)]
+    [uuid(85b985f7-57d6-4c66-b21e-bc572cb2bfe6)]
+    interface IOpmlAttributes requires 
+        Windows.Foundation.Collections.IMap<String, String>, 
+        Windows.Foundation.IStringable
+    {
+    };
+
+    [version(1.0)]
+    [uuid(e319f843-1808-4507-bc20-e751c819bd74)]
+    interface IOpmlOutlines requires 
+        Windows.Foundation.Collections.IVector<IOpmlOutline>, 
+        Windows.Foundation.Collections.IIterable<IOpmlOutline>, 
+        Windows.Foundation.IStringable
+    {
+    };
+
+    [version(1.0)]
+    [uuid(66067ea5-25d0-4d92-b979-2957a988b02f)]
+    interface IOpmlOutline requires 
+        Windows.Foundation.IStringable
+    {
+        String Text;
+        String Type;
+        Boolean IsComment;
+        Boolean IsBreakPoint;
+        Windows.Foundation.DateTime Created { get; };
+        IOpmlAttributes Attributes { get; };
+        IOpmlOutlines Outlines { get; };
+    };
+
+    [version(1.0)]
+    runtimeclass OpmlOutline : [default] IOpmlOutline
+    {
+        OpmlOutline();
+        OpmlOutline(String text);
+    }
+
+    [version(1.0)]
+    [uuid(66d9cc07-fdde-4f9e-8807-c1f67459ee15)]
+    interface IOpmlDocument requires 
+        Windows.Foundation.IStringable
+    {
+        UInt8 Version { get; };
+        IOpmlHeader Header { get; };
+        IOpmlOutline Body { get; };
+
+        Windows.Foundation.IAsyncAction SaveToFileAsync(Windows.Storage.IStorageFile file);
+    };
+
+    [version(1.0)]
+    runtimeclass OpmlDocument : [default] IOpmlDocument
+    {
+        OpmlDocument();
+        OpmlDocument(UInt8 documentVersion);
+        static Windows.Foundation.IAsyncOperation<IOpmlDocument> LoadFromBufferAsync(Windows.Storage.Streams.IBuffer buffer);
+        static Windows.Foundation.IAsyncOperation<IOpmlDocument> LoadFromUriAsync(Windows.Foundation.Uri uri);
+        static Windows.Foundation.IAsyncOperation<IOpmlDocument> LoadFromFileAsync(Windows.Storage.IStorageFile file);
+    }
+}

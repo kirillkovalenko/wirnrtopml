@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Build</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="Outline.cpp" />
+    <ClCompile Include="Document.cpp" />
+    <ClCompile Include="DateTime.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PropertySheet.props">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Build">
+      <UniqueIdentifier>{6725f5bf-9249-4007-8ef0-dcc9eef6ead9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{c69229ba-05d9-4843-ab4b-badfea672429}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pch.hpp" />
+    <ClInclude Include="Catch2.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\fullheader.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\playlist.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\presentation.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\simpleScript.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\specification.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\states.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\subscriptionList.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\directory.opml" />
+    <CopyFileToFolders Include="Data\fullheader.opml" />
+    <CopyFileToFolders Include="Data\playlist.opml" />
+    <CopyFileToFolders Include="Data\presentation.opml" />
+    <CopyFileToFolders Include="Data\simpleScript.opml" />
+    <CopyFileToFolders Include="Data\specification.opml" />
+    <CopyFileToFolders Include="Data\states.opml" />
+    <CopyFileToFolders Include="Data\subscriptionList.opml" />
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+    <CopyFileToFolders Include="Data\*.opml" />
+  </ItemGroup>
+</Project>
